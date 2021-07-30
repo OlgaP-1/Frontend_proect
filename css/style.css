@@ -1,0 +1,1034 @@
+/* ** настройка кроссбраузерности */
+@media screen and (max-width: 1282px) {
+    body{
+        width: 100%;
+        min-height:100%;
+        -o-background-size: 100%;
+        -webkit-background-size:100%;
+        -moz-background-size:100%;
+        -khtml-background-size:100%;
+        background-size: 100%;
+    }
+    .my_conteiner {
+        width: 100%;
+    } 
+    
+    .line2 {
+        display: none;
+    }
+    .row_block1 {
+        margin-top: 6rem;
+    }
+    .slider-text {
+        width: 20%;
+    }
+    .menu-link{
+        line-height: 2.5rem;
+    }
+
+}
+@media screen and (max-width: 741px){
+    .block2 > p {
+        font-size: 1rem;
+    }
+
+}
+@media screen and (max-width: 527px){
+    .block2 {
+        height: 350px;
+    }
+
+}
+@media screen and (max-width: 395px){
+    body{
+        width: 100%;
+    }
+    .my_container{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 40%;
+    }
+    .car {
+        /* height: 350px; */
+        display: none;
+        opacity: 0;
+    }
+
+    .blockPromo{
+        width: 100%;
+        padding: 0;
+    }
+    .promo1{
+        line-height: 1.5rem;
+    }
+    .promo1 > h1{
+        color: #43a047;
+        font-size: 40%;
+        /* font-size: 1.5em; */
+        font-weight: 700;
+        text-transform: uppercase;
+        width: 60%;
+        margin-top: 40%;
+    }
+    .promo2 {
+        font-size: 1rem;
+    }
+    .promo2 > h1{
+        color: #43a047;
+        font-weight: 700;
+        text-transform: uppercase;
+        width: 60%;
+        margin-top: 40%;
+    } 
+    footer > p{
+        font-size: 1rem;
+    }
+    .text-footer2{
+        font-size: 5px;
+    }
+    .tel{
+        font-size: 1rem;
+    }
+
+}
+/* ** центрирование всех объектов, задаем фон  */
+* {
+    margin: 0;
+    padding: 0;
+}
+    
+body {
+    padding: 0;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    font-family: 'Montserrat', sans-serif;
+}
+html{
+    background-color: #f7f7f7;
+}
+.my_container {
+    /* max-width: 1622px; */
+    max-width: 100%;
+    min-width: 300px;
+    background-color: #ffffff;
+}
+
+
+
+/* * ===== Блок с меню и главный слайд с картинкой ===== */
+.slider {
+    min-width: 280px;
+    height: 800px;
+    /* min-height: 600px; */
+    /* height: 60em; */
+    background-color: #f0f0f0;
+    background-image: url(/img/carusel/depositphotos_235180042-stock-photo-collection-colored-paints-cans-brush.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: 40%;
+    margin-bottom: 5rem;
+    position: relative;
+}
+.navbar-brand>img{
+    width: 100%;
+    /* display: inline-block; */
+}
+.navbar-collapse{
+    margin-left: 10rem;
+    line-height: 4.5rem;
+}
+.collapse{
+    padding-top: 2rem;
+    /* margin-left: 12rem; */
+    /* text-align: right; */
+}
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+    letter-spacing: 10%;
+    /* padding-right: 0.3rem;
+    padding-left: 0.3rem; */
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 2px;
+    /* margin-left: 1rem; */
+}
+.menu-link {
+    /* Style for "HOME     P" */
+    color: #8c8c8c;
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;
+    
+}
+.menu-link:hover {
+    /* color: #212121; */
+    /* box-shadow: 0px 0px 3px 1px  #212121; */
+    text-decoration: none;
+    /* border-bottom: 3px solid #212121; */
+    border-bottom: 3px solid #006cb1;
+    color: #006cb1;
+    font-weight: 600;
+    /* padding: 9px 12px; */
+    padding-top: 9px;
+    padding-right: 12px;
+    padding-bottom: 9px;
+    padding-left: 13px;
+}
+#catalog {
+    color: #8c8c8c;
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    /* padding: 10px 13px; */
+    padding-top: 10px;
+    padding-right: 13px;
+    padding-bottom: 10px;
+    padding-left: 13px;
+}
+#catalog:hover {
+    text-decoration: none;
+    /* border-bottom: 3px solid #212121; */
+    border-bottom: 3px solid #006cb1;
+    color: #006cb1;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-right: 9.5px;
+    padding-bottom: 9px;
+    padding-left: 11px;
+}
+.menu-active-link:hover {
+    padding: 10px 13.5px;
+    /* text-decoration: none; */
+
+}
+
+
+
+.menu-active-link {
+    /* Text style for "HOME" */
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+
+/* ==========  надпись на главном слайде  =========== */
+
+.slider-text {
+    position: absolute;
+    margin-top: 70rem;
+    margin-left: 2rem;
+    padding-top: 3%;
+    
+    /* margin-top: 1rem; */
+    /* margin-top: 283px; */
+    /* margin-top: ; */
+}
+.slider-text1 {
+    /* Style for "TRENDING" */
+    color: #43a047;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* opacity: ; */
+}
+.slider-h2 {
+    /* Style for "Fishnet Ch" */
+    color: #212121;
+    font-size: 5.5rem;
+    font-weight: 100;
+    text-transform: uppercase;
+    letter-spacing: -5px;
+}
+
+.slider-content {
+    /* Style for "Seat and b" */
+    color: #6c6c6c;
+    font-size: 1.5rem;
+    font-weight: 300;
+    /* width: 30%; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+.button {
+    /* Style for "Order Us" */
+    color: #212121;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    /* width: 212px; */
+    width: 19rem;
+    height: 3.5rem;
+    /* height: 45px; */
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    line-height: 35px;
+    letter-spacing: 3.6px;
+    /* text-decoration: none; */
+}
+
+
+/* ======пагинация на главном слайде (пока скрыта в html )======= */
+.pagination {
+    position: absolute;
+    
+    width: 1400px;
+    bottom: 19px;
+    text-align: center;
+}
+.circle {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #c7c7c7;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.circle:hover {
+    background-color: #212121;
+}
+
+.circle-active {
+    width: 40px;
+    height: 40px;
+    background-color: #212121;
+    margin-bottom: 0;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    position: fixed;
+}
+
+
+
+/* =======  строка с ссылкой на категории товаров======= */
+.row_block1 {
+    margin-top: 7rem;
+}
+.block1 {
+    height: 100%;
+}
+
+.text-explore:hover {
+    color: blue;
+}
+
+.featured {
+    /* width: 158px;
+    height: 27px; */
+    color: #212121;
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-weight: 700;
+    float: left;
+    /* line-height: 24px;
+    margin-right: 31px; */
+}
+
+.text-explore {
+    text-align: right;
+    color: #212121;
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    font-style: Montserrat-Black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.line2 {
+    vertical-align: middle;
+    border: 2px solid #212121;
+    /* width: 21%; */
+    /* width: 340px; */
+    width: 21rem;
+    background-color: #212121;
+}
+
+
+
+
+
+/*============== Блок с категориями товаров ========== */
+.products1 {
+    /* display: block; */
+    display: inline-block;
+    /* height: 370px; */
+    /* position: absolute; */
+    /* justify-content: center;
+    float: left; */
+    /* height: 270px; */
+    /* position: relative; */
+    /* overflow: hide; */
+    /* display: block; */
+    margin-right: 0%;
+    margin-left: 0%;
+    padding-left: 0%;
+    width: 270px;
+    height: 270px;
+}
+
+.products1_name{
+    margin-top: -1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #212121;
+    /* height: 40px; */
+
+}
+.catalog1 {
+    position: relative;
+    text-align: center;
+}
+.product_img{
+    width: 270px;
+    height: 270px;
+    /* border: 2px solid blueviolet; */
+    /* float: left; */
+    /* position: absolute; */
+    /* position: relative; */
+}
+.hover1{
+    /* position: absolute; */
+    /* position: inherit; */
+    margin-top: -24rem;
+    text-align: center;
+    width: 270px;
+    height: 270px;
+    /* position: relative; */
+    
+}
+.product {
+    position: relative;
+}
+.product:hover {
+    outline: 3px solid #86F6FF;
+    opacity: 0.1;
+    background-color: #ffffff;
+    background-clip: border-box;
+    position: relative;
+}
+
+
+div [class="product-fon fon1"] {
+    color: #212121;
+    font-size: 18px;
+    font-weight: 700;
+    box-shadow: 0 2px 5px 1px rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    line-height: 48px;
+    margin-left: 98px
+}
+
+div [class="product-fon fon2"] {
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 29.88px;
+    margin-top: 19px;
+    margin-bottom: 23px;
+    /* margin-right: 7rem; */
+    padding-left: 1rem;
+    /* padding: 0.3rem; */
+}
+
+div [class="product-fon fon3"] {
+    color: #6c6c6c;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 21.91px;
+    letter-spacing: 0px;
+    width: 206px;
+    height: 33px;
+    padding-left: 3.5rem;
+}
+
+
+/* ** ==========    блок с анимированным блоком  =========== */
+.block2{
+    margin: 0;
+    padding: 0;
+    /* padding-left: -10px;
+    padding-right: -50px;
+    margin-left: -15px;
+    margin-right: -50px; */
+    background-color: #cee3e2;
+    height: 250px;
+    padding-top: 2rem;
+    text-align: center;
+    /* position: relative; */
+}
+.car {
+    position: absolute;
+    /* text-align: center; */
+    /* line-height: 20px; */
+    /* margin-top: -1rem; */
+}
+
+@keyframes pulsate{50%{color:#ffffff;text-shadow:0 -1px rgba(33,33,33,.3),0 0 5px #f03000,0 0 8px #f80000;}
+}
+#car_text {
+    color: rgb(245,245,245);
+    text-shadow: 0 -1px rgba(33,33,33,.1);
+    text-align: center;
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 700;
+    font-style: Montserrat-Black;
+    /* font-size: 32px; */
+
+    /* font-weight: 600; */
+    text-decoration: none;
+    -webkit-animation: pulsate 1.2s linear infinite;
+    animation: pulsate 1.2s linear infinite;
+}
+.car_text2 {
+    margin-top: -2rem;
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: 0 -1px rgba(33,33,33,.1);
+    color: rgb(245,245,245);
+    text-decoration: none;
+    -webkit-animation: pulsate 1.2s linear infinite;
+    animation: pulsate 1.2s linear infinite;
+    /* display: inline-block; */
+}
+
+/* ===========  картинки внутри карусели   ========== */
+
+.tovar{
+    position: relative;
+    z-index: 1;
+    transform: skewX(0deg);
+    opacity: 90%;
+    border-radius: 3rem;
+    height: 34rem;
+    width: 30rem;
+}
+
+
+/* ============    Блок  Promo   ============== */
+.blockPromo{
+    width: 100%;
+    height: 100rem;
+    /* height: 200px; */
+    background-color: #ffffff;
+    
+}
+
+.promo1, .promo2{
+    display: inline-block;
+    height: 80%;
+    width: 50%;
+    margin-top: 5rem;
+    outline: 3px solid #86F6FF;
+    padding: 2%;
+    /* position: absolute; */
+}
+.promo1{
+
+    background-color: #f0f0f0;
+    background-image: url(/img/product/клей_о.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: 20%;
+    margin-bottom: 5rem;
+    /* margin-right: 2rem */
+    position: relative;
+    float: left;
+}
+
+.promo1 > h1{
+    color: #43a047;
+    font-size: 2.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 60%;
+    margin-top: 40%;
+} 
+.promo1 > p{
+    width: 60%;
+    color: #6c6c6c;
+    font-size: 1.5rem;
+    font-weight: 300;
+    /* width: 30%; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* line-height: 24px; */
+    line-height: 1.5rem;
+}
+
+.promo2{
+    background-color: lightskyblue;
+    background-image: url(/img/product/полировка.jpg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: 50%;
+    margin-bottom: 5rem;
+    /* margin-right: 2rem */
+    position: relative;
+    float: left;
+}
+
+.promo2 > h1{
+    color: #43a047;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 60%;
+    margin-top: 1%;
+} 
+.promo2 > p{
+    width: 60%;
+    /* color: #6c6c6c; */
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;
+    /* width: 30%; */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 24px;
+
+}
+.block_hidden {
+    height: 2%;
+    display: block;
+}
+
+
+
+
+
+/*! ************************************************************************* */
+/*! ************************************************************************* */
+/*! ************************************************************************* */
+
+/* !===================  Footer   ======================== */
+
+/* !===================  Footer   ======================== */
+/* !===================  Footer   ======================== */
+
+/* !===================  Footer   ======================== */
+
+
+
+.footer {
+    height: 100rem;
+    background-color: #f7f7f7;
+    border-color: #f7f7f7;
+    position: relative;
+}
+
+.footer-blok1 {
+    margin-top: 3rem;
+    margin-left: 2rem;
+    width: 221px;
+    height: 139px;
+    float: left;
+    margin-right: 80px;
+}
+
+.footer-contacts {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    /* height: 13px; */
+    margin-bottom: 25px;
+    height: 13px;
+}
+
+.footer-adres {
+
+    color: #212121;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.footer-blok2 {
+    float: left;
+    margin-top: 3rem;
+    margin-left: 10rem;
+}
+
+.inform {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    /* Text style for "U, seful I" */
+    letter-spacing: 1.8px;
+}
+
+.inform2 {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+    /* Text style for "Sales term" */
+    letter-spacing: 0.7px;
+    width: 137px;
+    height: 62px;
+    margin-top: 25px;
+    float: left;
+}
+
+.footer-blok3 {
+    margin-top: 3rem;
+    width: 70rem;
+    height: 147px;
+    float: left;
+    margin-left: 30rem;
+}
+
+.footer-blok3-text1 {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    /* Text style for "L, et’s St" */
+    letter-spacing: 1.8px;
+}
+
+.footer-blok3-text2 {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    margin-top: 24px;
+    margin-bottom: 26px;
+}
+
+/* .input [type="footer-blok3-text3"] placeholder {
+    width: 128px;
+    height: 14px;
+    margin-top: 17px;
+    margin-left: 19px;
+}
+
+.windows {
+    width: 370px;
+    height: 48px;
+    padding-left: 19px;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    float: left;
+} */
+.footer_block {
+    margin-bottom: 5px;
+
+}
+.container_footer{
+    width: 100%;
+}
+
+.text-footer-footer2 {
+    width: 100%;
+    margin-bottom: 5rem;
+    font-family: font-awesome-4.7.0, font-awesome-4.7.0;
+    margin-top: 8rem;
+    float: left;    
+}
+
+.text-footer2 {
+    margin-top: 8rem;
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    text-align: left;
+    float: left;
+    margin-left: 3rem;
+}
+
+.text2-footer2 {
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    /*line-height: 26px;*/
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    text-align: right;
+}
+
+.icons{
+    background-color: lawngreen;
+    display: inline-block;
+    width: 350px;
+    height: 40px;
+    position: absolute;
+    margin-top: 3rem;
+    position: absolute;
+    margin-left: 20rem;
+    margin-top: 8.4rem;
+}
+.tel{
+    /* background-color: lightpink; */
+    display: inline-block;
+    width: 350px;
+    height: 40px;
+    position: absolute;
+    margin-top: 3rem;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 8.4rem;
+}
+.tel > a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #212121;
+}
+.tel > a:hover{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #212121;
+}
+/* fa-facebook */
+.fa-facebook:before {
+    content: "\f09a";
+    font-family: FontAwesome;
+    color: #ffffff;
+    /* margin-right: 8px; */
+    border-radius: 50%;
+    text-decoration: none;
+}
+.fa-twitter-square:before {
+    content: "\f081";
+    font-family: FontAwesome;
+    color: #aaa;
+    /* margin-right: 15px; */
+    border-radius: 55%;
+    text-decoration: none;
+    font-size: 31px;
+}
+.fa-vk:before {
+    /* content: "\f081"; */
+    font-family: FontAwesome;
+    color: #aaa;
+    /* margin-right: 15px; */
+    border-radius: 55%;
+    text-decoration: none;
+    font-size: 31px;
+    /* margin-top: -25px; */
+}
+.fab:hover {
+    background-color: black;
+    /* font-size: 31px; */
+    width: 31px;
+    border-radius: 25%;
+    /* margin-right: 15px;
+    margin-left: 15px; */
+
+}
+.fas:hover {
+    background-color: black;
+    /* margin-right: 15px;
+    margin-left: 15px; */
+    /* border-radius: 25%; */
+}
+
+ul[class="icons"] {
+    list-style: none;
+    /* border-radius: 50%; */
+    font-size: 0px;
+    margin-left: 158px;
+    float: left;
+}
+.icons1,
+.icons2,
+.icons3,
+.icons4,
+.icons5 {
+    /* width: 40px; */
+    text-decoration: none;
+    font-size: 31px;
+    float: left;
+    line-height: none;
+    margin: 9px;
+    /* margin-left: 15px; */
+}
+
+.fa-facebook {
+    font-size: 14px;
+    text-decoration: none;
+    font-style: normal;
+    border-radius: 50%;
+    width: 27px;
+    height: 24px;
+    background-color: #aaaaaa;
+    float: left;
+    text-align: center;
+    padding-top: 8px;
+    padding-left: 6px;
+}
+
+.fa-twitter {
+    font-size: 14px;
+    text-decoration: none;
+    font-style: normal;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    background-color: #aaaaaa;
+    float: left;
+    text-align: center;
+    padding-top: 8px;
+    padding-left: 9px;
+}
+
+.fa-twitter:before {
+    content: "\f099";
+    font-family: FontAwesome;
+    color: #ffffff;
+    /* margin-right: 10px; */
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.fa-pinterest:before {
+    content: "\f0d2";
+    font-family: FontAwesome;
+    color: #ffffff;
+    /* margin-right: 10px; */
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.fa-pinterest {
+    font-size: 17px;
+    text-decoration: none;
+    font-style: normal;
+    border-radius: 50%;
+    width: 24px;
+    height: 25px;
+    background-color: #aaaaaa;
+    float: left;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 7px;
+}
+
+
+
+
+
+
+/* ul.icons {
+    text-align: center; 
+    margin-left: 158px;
+    display: inline-block;
+    width: 153px;
+    height: 28px;
+    float: left;
+    margin-top: -5px;
+    list-style: none;
+    border-radius: 50%;
+    font-size: 0px;
+} */
+
+/*.button-fa {
+    width: 40px;
+    height: 40px;
+    background-image: url(img/paper-plane-solid.svg);
+    float: left;
+    border: none;
+    margin-left: 349px;
+    margin-top: -47px;
+    margin-bottom: 50px;
+    background-color: white;
+}*/
+
+
+/* .text-footer-footer2 {
+    font-family: font-awesome-4.7.0, font-awesome-4.7.0;
+        text-align: center;
+    margin: 0 auto;
+    margin-top: 69px;
+    line-height: 0px;
+    float: left;
+    margin-bottom: 38px;
+} */
+
+
+
+.footer2-cherin a {
+    font-size: 0px;
+    text-decoration: none;
+}
+
+.fa-google-plus {
+        font-size: 14px;
+    text-decoration: none;
+    font-style: normal;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    background-color: #aaaaaa;
+    float: left;
+    text-align: center;
+    padding-top: 6px;
+    padding-left: 7px;
+    margin-right: 7px;
+    float: left;
+}
+
+.fa-google-plus:before {
+    content: "\f2b3";
+    font-family: FontAwesome;
+    color: #ffffff;
+    margin-right: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+
+.text-footer3 {
+    color: #6c6c6c;
+font-size: 12px;
+font-weight: 700;
+line-height: 26px;
+text-transform: uppercase;
+/* Text style for "T, erms &" */
+letter-spacing: 0.6px;
+    float: left;
+    margin-left: 172px;
+    width: 358px;
+    height: 12px;
+}
+    
