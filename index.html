@@ -4,20 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2b0b6ab601.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.scss">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
     <title>КУЗОВ Маркет - г.Первоуральск</title>
 
-
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="img/css/font-awesome.min.css"> -->
     <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
     <!-- <link rel="stylesheet" href="css/block2.scss"> -->
@@ -31,8 +29,1007 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
         crossorigin="anonymous"></script>
+    <!-- Подключение библиотеки jQuery -->
+    <!-- <script src="jquery.js"></script> -->
+    <!-- Подключение jQuery плагина Masked Input -->
+    <!-- <script src="/jquery/jquery.maskedinput.min.js"></script> -->
+    <style>
+        .slider {
+    /* text-align: center; */
+    min-width: 280px;
+    height: 1455px;
+    /* height: 100%; */
+    /* min-height: 600px; */
+    /* height: 60em; */
+    background-color: #f0f0f0;
+    background-image: url(/img/carusel/depositphotos_235180042-stock-photo-collection-colored-paints-cans-brush.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: 30%;
+    margin-bottom: 5rem;
+    position: relative;
+}
+.navbar-brand>img{
+    width: 100%;
+    /* display: inline-block; */
+}
+.navbar-collapse{
+    margin-left: 10rem;
+    line-height: 4.5rem;
+}
+.collapse{
+    padding-top: 2rem;
+    /* margin-left: 12rem; */
+    /* text-align: right; */
+}
+
+.menu-list {
+    list-style-type: none;
+    float: left;
+    letter-spacing: 10%;
+    /* padding-right: 0.3rem;
+    padding-left: 0.3rem; */
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 2px;
+    /* margin-left: 1rem; */
+}
+.menu-link {
+    /* Style for "HOME     P" */
+    color: #8c8c8c;
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;
+    
+}
+.menu-link:hover {
+    /* color: #212121; */
+    /* box-shadow: 0px 0px 3px 1px  #212121; */
+    text-decoration: none;
+    /* border-bottom: 3px solid #212121; */
+    border-bottom: 3px solid #006cb1;
+    color: #006cb1;
+    font-weight: 600;
+    /* padding: 9px 12px; */
+    padding-top: 9px;
+    padding-right: 12px;
+    padding-bottom: 9px;
+    padding-left: 13px;
+}
+#catalog {
+    color: #8c8c8c;
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-decoration: none;
+    /* padding: 10px 13px; */
+    padding-top: 10px;
+    padding-right: 13px;
+    padding-bottom: 10px;
+    padding-left: 13px;
+}
+#catalog:hover {
+    text-decoration: none;
+    /* border-bottom: 3px solid #212121; */
+    border-bottom: 3px solid #006cb1;
+    color: #006cb1;
+    font-weight: 600;
+    padding-top: 10px;
+    padding-right: 9.5px;
+    padding-bottom: 9px;
+    padding-left: 11px;
+}
+.menu-active-link:hover {
+    padding: 10px 13.5px;
+    /* text-decoration: none; */
+
+}
 
 
+
+.menu-active-link {
+    /* Text style for "HOME" */
+    color: #212121;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+
+/* ===========  кнопка связи в меню  ======= */
+.modal-title > h2 {
+    color: #212121;
+    font-weight: 600;
+
+}
+.block_btn_coll {
+    position: relative;
+    width: 120%;
+    height: 120%;
+    margin-left: 26%;
+    margin-top: 7%;
+    background-image: url(../img/carusel/color1_2.svg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+
+label {
+    color: #212121;
+}
+.modal {
+    max-width: 600px;
+}
+.btn_message {
+    background-color: rgba(240,240,240, .5);
+    /* opacity: 20%; */
+    position: absolute;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 12%; 
+    border-radius: 50%;
+    height: 7%;
+    width: 20%;
+}
+.form-group > label {
+    color: #212121;
+    font-size: 1.5rem;
+
+}
+.form-group > input {
+    /* width: 20%; */
+    height: 3rem;
+    padding-top: 10px;
+}
+.form-group > input::placeholder {
+    font-size: 1.5rem;
+    color: #aaaaaa;
+}
+.modal-footer > button {
+    font-size: 3rem;
+} 
+
+.footer {
+    /* height: 100rem; */
+    background-color: #f7f7f7;
+    border-color: #f7f7f7;
+    position: relative;
+}
+
+.footer-blok1 {
+    margin-top: 3rem;
+    /* margin-left: 2rem; */
+    width: 221px;
+    height: 139px;
+    float: left;
+    /* float: right; */
+    /* margin-right: 80px; */
+}
+
+.footer-contacts {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    /* height: 13px; */
+    margin-bottom: 25px;
+    height: 13px;
+}
+
+.footer-adres {
+
+    color: #212121;
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+.footer-blok2 {
+    float: left;
+    margin-top: 3rem;
+    /* margin-left: 10rem; */
+}
+
+.inform {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    /* Text style for "U, seful I" */
+    letter-spacing: 1.8px;
+}
+
+.inform2 {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    text-transform: uppercase;
+    /* Text style for "Sales term" */
+    letter-spacing: 0.7px;
+    width: 137px;
+    height: 62px;
+    margin-top: 25px;
+    float: left;
+}
+
+.footer-blok3 {
+    margin-top: 3rem;
+    width: 70rem;
+    height: 147px;
+    float: left;
+    /* margin-left: 30rem; */
+    /* float: right; */
+}
+
+.footer-blok3-text1 {
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    /* Text style for "L, et’s St" */
+    letter-spacing: 1.8px;
+}
+
+.footer-blok3-text2 {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    margin-top: 24px;
+    margin-bottom: 26px;
+}
+
+/* .input [type="footer-blok3-text3"] placeholder {
+    width: 128px;
+    height: 14px;
+    margin-top: 17px;
+    margin-left: 19px;
+}
+
+.windows {
+    width: 370px;
+    height: 48px;
+    padding-left: 19px;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    float: left;
+} */
+.footer_block {
+    margin-bottom: 5px;
+
+}
+.container_footer{
+    width: 100%;
+}
+
+.text-footer-footer2 {
+    width: 100%;
+    margin-bottom: 5rem;
+    font-family: font-awesome-4.7.0, font-awesome-4.7.0;
+    margin-top: 8rem;
+    float: left;    
+}
+
+.text-footer2 {
+    margin-top: 8rem;
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    text-align: left;
+    float: left;
+    /* margin-left: 3rem; */
+}
+
+.text2-footer2 {
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    /*line-height: 26px;*/
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    text-align: right;
+}
+
+.icons{
+    background-color: lawngreen;
+    display: inline-block;
+    width: 350px;
+    height: 40px;
+    position: absolute;
+    margin-top: 3rem;
+    position: absolute;
+    margin-left: 20rem;
+    margin-top: 8.4rem;
+}
+/* .tel{
+    display: inline-block;
+    width: 350px;
+    height: 40px;
+    position: absolute;
+    margin-top: 3rem;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 8.4rem;
+} */
+.tel > a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    color: #212121;
+}
+.tel > a:hover{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: #212121;
+}
+/* fa-facebook */
+.fa-facebook:before {
+    content: "\f09a";
+    font-family: FontAwesome;
+    color: #ffffff;
+    /* margin-right: 8px; */
+    border-radius: 50%;
+    text-decoration: none;
+}
+.fa-twitter-square:before {
+    content: "\f081";
+    font-family: FontAwesome;
+    color: #aaa;
+    /* margin-right: 15px; */
+    border-radius: 55%;
+    text-decoration: none;
+    font-size: 31px;
+}
+.fa-vk:before {
+    /* content: "\f081"; */
+    font-family: FontAwesome;
+    color: #aaa;
+    /* margin-right: 15px; */
+    border-radius: 55%;
+    text-decoration: none;
+    font-size: 31px;
+    /* margin-top: -25px; */
+}
+.fab:hover {
+    background-color: black;
+    /* font-size: 31px; */
+    width: 31px;
+    border-radius: 25%;
+    /* margin-right: 15px;
+    margin-left: 15px; */
+
+}
+.fas:hover {
+    background-color: black;
+    /* margin-right: 15px;
+    margin-left: 15px; */
+    /* border-radius: 25%; */
+}
+
+ul[class="icons"] {
+    list-style: none;
+    /* border-radius: 50%; */
+    font-size: 0px;
+    margin-left: 158px;
+    float: left;
+}
+.icons1,
+.icons2,
+.icons3,
+.icons4,
+.icons5 {
+    /* width: 40px; */
+    text-decoration: none;
+    font-size: 31px;
+    float: left;
+    line-height: none;
+    margin: 9px;
+    /* margin-left: 15px; */
+}
+
+.fa-facebook {
+    font-size: 14px;
+    text-decoration: none;
+    font-style: normal;
+    border-radius: 50%;
+    width: 27px;
+    height: 24px;
+    background-color: #aaaaaa;
+    float: left;
+    text-align: center;
+    padding-top: 8px;
+    padding-left: 6px;
+}
+
+.fa-twitter {
+    font-size: 14px;
+    text-decoration: none;
+    font-style: normal;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    background-color: #aaaaaa;
+    float: left;
+    text-align: center;
+    padding-top: 8px;
+    padding-left: 9px;
+}
+
+.fa-twitter:before {
+    content: "\f099";
+    font-family: FontAwesome;
+    color: #ffffff;
+    /* margin-right: 10px; */
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.fa-pinterest:before {
+    content: "\f0d2";
+    font-family: FontAwesome;
+    color: #ffffff;
+    /* margin-right: 10px; */
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.fa-pinterest {
+    font-size: 17px;
+    text-decoration: none;
+    font-style: normal;
+    border-radius: 50%;
+    width: 24px;
+    height: 25px;
+    background-color: #aaaaaa;
+    float: left;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 7px;
+}
+
+.review_check {
+    color: #212121;
+    font-weight: 300;
+    /* margin-top: 10px; */
+    padding-top: 10px;
+}
+
+
+
+
+/* ul.icons {
+    text-align: center; 
+    margin-left: 158px;
+    display: inline-block;
+    width: 153px;
+    height: 28px;
+    float: left;
+    margin-top: -5px;
+    list-style: none;
+    border-radius: 50%;
+    font-size: 0px;
+} */
+
+/*.button-fa {
+    width: 40px;
+    height: 40px;
+    background-image: url(img/paper-plane-solid.svg);
+    float: left;
+    border: none;
+    margin-left: 349px;
+    margin-top: -47px;
+    margin-bottom: 50px;
+    background-color: white;
+}*/
+
+
+/* .text-footer-footer2 {
+    font-family: font-awesome-4.7.0, font-awesome-4.7.0;
+        text-align: center;
+    margin: 0 auto;
+    margin-top: 69px;
+    line-height: 0px;
+    float: left;
+    margin-bottom: 38px;
+} */
+
+
+
+.footer2-cherin a {
+    font-size: 0px;
+    text-decoration: none;
+}
+
+.fa-google-plus {
+        font-size: 14px;
+    text-decoration: none;
+    font-style: normal;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    background-color: #aaaaaa;
+    float: left;
+    text-align: center;
+    padding-top: 6px;
+    padding-left: 7px;
+    margin-right: 7px;
+    float: left;
+}
+
+.fa-google-plus:before {
+    content: "\f2b3";
+    font-family: FontAwesome;
+    color: #ffffff;
+    margin-right: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+
+.text-footer3 {
+    color: #6c6c6c;
+font-size: 12px;
+font-weight: 700;
+line-height: 26px;
+text-transform: uppercase;
+/* Text style for "T, erms &" */
+letter-spacing: 0.6px;
+    float: left;
+    margin-left: 172px;
+    width: 358px;
+    height: 12px;
+}
+    
+
+
+
+
+
+
+
+/* ** настройка кроссбраузерности */
+@media screen and (max-width: 1282px) {
+    body{
+        width: 100%;
+        min-height:100%;
+        -o-background-size: 100%;
+        -webkit-background-size:100%;
+        -moz-background-size:100%;
+        -khtml-background-size:100%;
+        background-size: 100%;
+    }
+    .my_conteiner {
+        width: 100%;
+    } 
+    
+    .line2 {
+        display: none;
+    }
+    .row_block1 {
+        margin-top: 6rem;
+    }
+    .slider-text {
+        width: 20%;
+    }
+    .menu-link{
+        line-height: 2.5rem;
+    }
+
+}
+@media screen and (max-width: 741px){
+    .block2 > p {
+        font-size: 1rem;
+    }
+    .block_btn_coll{
+        height: 70%;
+    }
+    .btn_message{
+        height: 4%;
+    }
+    .slider{
+        height: 800px;
+    }
+    .slider-text{
+        margin-top: 41rem;
+    }
+
+}
+@media screen and (max-width: 670px){
+    .footer-blok3-text2{
+        margin-left: 280px;
+    }
+    footer > .col-md-8 {
+        width: 330px;
+        margin-left: 280px;
+    }
+    .text-footer-footer2 > p {
+        font-size: 8px;
+        line-height: 14px;
+    }
+    .block_btn_coll{
+        height: 70%;
+    }
+    .btn_message{
+        height: 4%;
+    }
+    .slider{
+        height: 800px;
+    }
+    .slider-text{
+        margin-top: 41rem;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 527px){
+    body{
+        width: 100%;
+    }
+
+    .my_container{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 40%;
+    }
+    .collapse{
+        margin-left: 1rem;
+    }
+    .menu-list > a{
+        font-size: 11px;
+    }
+    .menu-active-link {
+        border-bottom: 2px solid #212121;
+    }
+    #catalog{
+        font-size: 11px;
+    }
+    .block_btn_coll{
+        position: relative;
+        width: 67%;
+        height: 30%;
+        margin-left: 13%;
+        margin-top: -7%;
+        background-image: url(/img/carusel/color1_2.png);
+        background-repeat: no-repeat;
+        background-size: 107%;
+
+    }
+    .btn_message{
+        height: 26%;
+        width: 65%;
+        font-size: 2.5rem;
+        margin-left: 21%;
+        margin-top: 31%;
+    }
+    .slider{
+        height: 830px;
+    }
+    .slider-text{
+        margin-top: 29rem;
+    }
+    .slider-text1{
+        font-size: 1.5rem;
+    }
+    .slider-h2{
+        font-size: 3.5rem;
+        letter-spacing: -2px;
+    }
+    .slider-content{
+        font-size: 1rem;
+        margin-top: 13px;
+        line-height: 14px;
+    }
+    .button {
+        font-size: 1rem;
+        height: 2.5rem;
+        width: 13rem;
+        line-height: 25px;
+        letter-spacing: 2.6px;
+    }
+    .products1_name{
+        margin-top: -5.5rem;
+    }
+    .products1{
+        margin-top: 21px;
+    }
+    .block1 > .row{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    div [class="product-fon fon3"] {
+        font-size: 11px;
+        letter-spacing: 0px;
+        line-height: 16px;
+    }
+    div [class="product-fon fon2"] {
+        font-size: 20px;
+        line-height: 24.88px;
+        margin-top: 16px;
+    }
+    .block2{
+        height: 140px;
+    }
+    #car_text{
+        font-size: 2rem;
+    }
+    .car_text2{
+        margin-top: 2rem;
+    }
+    .car {
+        /* height: 350px; */
+        display: none;
+        /* opacity: 0;
+        margin-left: -30px;
+        width: 50px; */
+    }
+
+    .blockPromo{
+        width: 100%;
+        padding: 0;
+        height: 55rem;
+    }
+    .promo1{
+        line-height: 1.5rem;
+    }
+    .promo1 > h1{
+        color: #43a047;
+        /* font-size: 40%; */
+        font-size: 2.5em;
+        font-weight: 700;
+        text-transform: uppercase;
+        width: 60%;
+        margin-top: 40%;
+    }
+    .promo1 > p{
+        font-size: 1rem;
+    }
+    /* .promo2 {
+        font-size: 1rem;
+    } */
+    .promo2 > h1{
+        color: #43a047;
+        font-weight: 700;
+        text-transform: uppercase;
+        width: 60%;
+        margin-top: 40%;
+        font-size: 1rem;
+    } 
+    .promo2 > p{
+        font-size: 1rem;
+        line-height: 12px;
+    }
+    footer > p{
+        font-size: 1rem;
+    }
+    .text-footer-footer2 > p {
+        font-size: 8px;
+        line-height: 14px;
+        margin-left: 33px;
+        margin-top: 130px;
+    }
+    /* .tel{
+        font-size: 1rem;
+        margin-left: 11%;
+    } */
+    footer > .col-md-8 {
+        width: 330px;
+        margin-left: 280px;
+    }
+    .footer-blok2{
+        margin-left: 3rem;
+
+    }
+    .inform{
+        letter-spacing: 0.8px;
+    }
+    .footer-blok3{
+        margin-top: -2rem;
+        width: 65rem;
+        height: 190px;
+    }
+    .footer-blok3 > .row {
+        margin-right: 0px;
+        margin-left: 211px;
+        padding: 0px;
+    }
+    .footer-blok3-text2{
+        margin-left: 229px;
+    }
+    .form-group > input {
+        height: 3.5rem;
+        padding-top: 5px;
+        font-size: 13px;
+    }
+
+}
+@media screen and (max-width: 395px){
+    body{
+        width: 100%;
+    }
+    .my_container{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 40%;
+    }
+    .collapse{
+        margin-left: 1rem;
+    }
+    .menu-list > a{
+        font-size: 11px;
+    }
+    .menu-active-link {
+        border-bottom: 2px solid #212121;
+    }
+    #catalog{
+        font-size: 11px;
+    }
+    .block_btn_coll{
+        position: relative;
+        width: 60%;
+        height: 22%;
+        margin-left: 18%;
+        margin-top: 7%;
+        background-image: url(/img/carusel/color1_2.png);
+        background-repeat: no-repeat;
+        background-size: 106%;
+
+    }
+    .btn_message{
+        height: 26%;
+        width: 65%;
+        font-size: 2.5rem;
+        margin-left: 21%;
+        margin-top: 31%;
+    }
+    .slider{
+        height: 800px;
+    }
+    .slider-text{
+        margin-top: 29rem;
+    }
+    .slider-text1{
+        font-size: 1.5rem;
+    }
+    .slider-h2{
+        font-size: 3.5rem;
+        letter-spacing: -2px;
+    }
+    .slider-content{
+        font-size: 1rem;
+        margin-top: 13px;
+        line-height: 14px;
+    }
+    .button {
+        font-size: 1rem;
+        height: 2.5rem;
+        width: 13rem;
+        line-height: 25px;
+        letter-spacing: 2.6px;
+    }
+    .products1_name{
+        margin-top: -5.5rem;
+    }
+    .products1{
+        margin-top: 21px;
+    }
+    .block1 > .row{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    div [class="product-fon fon3"] {
+        font-size: 11px;
+        letter-spacing: 0px;
+        line-height: 16px;
+    }
+    div [class="product-fon fon2"] {
+        font-size: 20px;
+        line-height: 24.88px;
+        margin-top: 16px;
+    }
+    .block2{
+        height: 140px;
+    }
+    #car_text{
+        font-size: 2rem;
+    }
+    .car_text2{
+        margin-top: 2rem;
+    }
+    .car {
+        /* height: 350px; */
+        display: none;
+        /* opacity: 0;
+        margin-left: -30px;
+        width: 50px; */
+    }
+
+    .blockPromo{
+        width: 100%;
+        padding: 0;
+        height: 55rem;
+    }
+    .promo1{
+        line-height: 1.5rem;
+    }
+    .promo1 > h1{
+        color: #43a047;
+        /* font-size: 40%; */
+        font-size: 2.5em;
+        font-weight: 700;
+        text-transform: uppercase;
+        width: 60%;
+        margin-top: 40%;
+    }
+    .promo1 > p{
+        font-size: 1rem;
+    }
+    /* .promo2 {
+        font-size: 1rem;
+    } */
+    .promo2 > h1{
+        color: #43a047;
+        font-weight: 700;
+        text-transform: uppercase;
+        width: 60%;
+        margin-top: 40%;
+        font-size: 1rem;
+    } 
+    .promo2 > p{
+        font-size: 1rem;
+        line-height: 12px;
+    }
+    footer > p{
+        font-size: 1rem;
+    }
+    .text-footer-footer2 > p {
+        font-size: 8px;
+        line-height: 14px;
+        margin-left: 33px;
+    }
+    /* .tel{
+        font-size: 1rem;
+        margin-left: 11%;
+    } */
+    footer > .col-md-8 {
+        width: 330px;
+        margin-left: 280px;
+    }
+    .footer-blok2{
+        margin-left: 3rem;
+
+    }
+    .inform{
+        letter-spacing: 0.8px;
+    }
+    .footer-blok3{
+        margin-top: -2rem;
+        width: 65rem;
+        height: 190px;
+    }
+    .footer-blok3 > .row {
+        margin-right: 0px;
+        margin-left: 264px;
+        padding: 0px;
+    }
+    .footer-blok3-text2{
+        margin-left: 280px;
+    }
+}
+    </style>
 </head>
 
 <body>
@@ -40,6 +1037,7 @@
         <!-- slider pt-5 pl-5 pr-5 -->
         <div class="slider">
             <!-- <a class="navbar-brand pr-5" href="index.html"><img src="img/logo-kuzov-svg-svg.svg" alt="logo"></a> -->
+            <!-- *! ===============   Меню   ============= -->
             <nav class="navbar navbar-expand-lg  navbar-light nav_color" style="background-color: #f0f0f0;">
                 <a class="navbar-brand pr-5" href="index.html"><img src="img/logo-kuzov-svg-svg.svg" alt="logo"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -55,22 +1053,101 @@
                         <li class="menu-list"><a href="#" class="menu-link">О нас</a></li>
                         <!-- <li class="menu-list"><a href="#" class="menu-link">SHOWROOM</a></li> -->
                         <li class="menu-list"><a href="#" class="menu-link">Контакты</a></li>
+
                         <!-- <li class="menu-list">
                         <a href="#" class="menu-link"><img src="img/search.svg" alt=""></a>
                     </li> -->
                     </ul>
                     <!-- <img src="/img/carusel/menu-icon.png" class="menubutton" alt="menuknop"> -->
                 </div>
+            </nav>
+
+
+
+            <!--* ============  Главный слайд ============= -->
 
                 <!-- <div class="pagination">
                 <a href="#" class="circle"></a><a href="#" class="circle circle-active"></a><a href="#" class="circle"></a>
             </div> -->
-                <div class="slider-text">
-                    <p class="slider-text1" style=none;">Колористика</p>
+
+
+            <div class="slider-text">
+                    <p class="slider-text1">Колористика</p>
                     <h2 class="slider-h2">Подбор цвета</h2>
                     <p class="slider-content">Профессиональный подбор цвета к&nbsp;вашему кузову</p><a href="#"
                         class="button">подробнее ></a>
+            </div>
+
+            <!-- ! ==================    модальное окно при нажатии на кнопку телефона ================-->
+                <!-- Button trigger modal -->
+                <!-- Кнопка-триггер модального окна -->
+            <div class="block_btn_coll">
+                <button type="button" class="btn btn_message" data-toggle="modal"
+                        data-target="#exampleModal">
+                        <h3>Оставить заявку</h3>
+                </button>
+                    <!-- Модальное окно -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <!--  ====  форма отправки сообщения  === -->
+                                    <form action="/php/sendMail.php">
+                                        <div class="form-group">
+                                            <label for="exampleInputPassword1" style="color: #212121;">
+                                                Телефон:*
+                                            </label>
+                                            <!-- <h5>Контактный телефон</h5> -->
+                                            <!-- id="exampleInputPassword1" -->
+                                            <input type="tel" id="exampleInputPassword1" pattern="\+7[0-9]{10}|\8[0-9]{10}"
+                                                placeholder="+7(___)___-__-__" class="form-control" name="user_tel"
+                                                required>
+                                        </div>
+                                        <div class="form-group">
+                                            <!-- <h5>Как Вас зовут?</h5> -->
+                                            <label for="exampleInputPassword1" style="color: #212121;">
+                                                Имя:*
+                                            </label>
+                                            <input type="text" class="form-control" id="exampleInputPassword1"
+                                                name="user_name" required>
+                                        </div>
+                                        <div class="form-group">
+                                            <!-- <h5>Как Вас зовут?</h5> -->
+                                            <label for="exampleInputPassword1" style="color: #212121;">
+                                                Cообщение:
+                                            </label>
+                                            <input type="text" class="form-control" id="exampleInputPassword1"
+                                                name="user_text" placeholder="(по желанию)">
+                                        </div>
+                                        <div class="form-group form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                                            <label class="form-check-label" for="exampleCheck1">
+                                                <h5 class="review_check ml-3 mt-1">Согласен на обработку персональных
+                                                    данных</h5>
+                                            </label>
+                                        </div>
+
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal"
+                                                style="font-size: 1.5rem;">
+                                                <h3>Закрыть</h3>
+                                            </button>
+                                            <button type="submit" class="btn btn-primary">
+                                                <h3>Отправить</h3>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                 </div>
+            </div>
         </div>
 
 
@@ -387,53 +1464,64 @@
 
     <footer>
 
-        <div class="footer_block">
-            <div class="footer-blok1 clearfix">
-                <p class="footer-contacts">Контакты</p>
-                <p class="footer-adres">
-                    Свердловская область
-                    <br>
-                    г.Первоуральск,
-                    <br>
-                    ул. Вайнера 45В, стр. 1
-                </p>
-            </div>
-            <div class="footer-blok2 clearfix">
-                <p class="inform">Режим работы</p>
-                <p class="inform2">Ежедневно с 9.00 - 19.00<br>
-                    без выходных</p>
-            </div>
-            <!-- <div class="footer-blok3">
-                <p class="footer-blok3-text1">
-                    Обратная связь
-                </p>
-                <p class="footer-blok3-text2">Если у вас имеются жалобы или пожелания - напишите нам</p>
-                <div class="row">
-                    <div class="col-md-8">
-                        <form action="">
-                            <div class="form-group">
-                                <input type="text" class="form-control" placeholder="ФИО">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control" placeholder="E-mail">
-                            </div>
-                            <div class="form-group">
-                                <textarea type="text" class="form-control" placeholder="Сообщение"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <input type="submit" class="btn bg-info form-control">
-                            </div>
-                        </form>
+        <div class="container-fluid">
+            <div class="footer_block">
+                <div class="footer-blok1 ml-5 mr-5 clearfix">
+                    <p class="footer-contacts ">Контакты</p>
+                    <p class="footer-adres">
+                        Свердловская область
+                        <br>
+                        г.Первоуральск,
+                        <br>
+                        ул. Вайнера 45В, стр. 1
+                    </p>
+                    <div class="tel">
+                        <a href="tel:+7-950-192-14-74">+7 (950) 192-14-74</a>
                     </div>
-
-
                 </div>
-            </div> -->
+                <div class="footer-blok2 mr-lg-5 clearfix">
+                    <p class="inform">Режим работы</p>
+                    <p class="inform2">Ежедневно с 9.00 - 19.00<br>
+                        без выходных</p>
+                </div>
+                <div class="footer-blok3 ml-lg-5 pull-right">
+                    <p class="footer-blok3-text1">
+                        Обратная связь
+                    </p>
+                    <p class="footer-blok3-text2">Если у вас имеются жалобы или пожелания - напишите нам</p>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <form action="/php/sendReview.php">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="ФИО" name="user_name2">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="E-mail" name="user_email2">
+                                </div>
+                                <div class="form-group">
+                                    <textarea type="text" class="form-control" placeholder="Сообщение"
+                                        name="user_text2"></textarea>
+                                </div>
+                                <div class="form-group form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">
+                                        <h5 class="review_check ml-3 mt-1">Согласен на обработку персональных данных
+                                        </h5>
+                                    </label>
+                                </div>
+                                <div class="form-group">
+                                    <input type="submit" class="btn bg-info form-control">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
 
         <div class="container_footer">
-            <div class="text-footer-footer2">
+            <div class="text-footer-footer2 ml-lg-5">
                 <p class="text-footer2">
                     &copy; 2021 Кузов Маркет,
                     <br>
@@ -454,9 +1542,7 @@
                     <div class="vk"><a href="https://vk.com/" target="_blank"><i class="fab fa-vk"></i></a></div>
                     <div class="instagram"><a href="https://www.instagram.com/?hl=ru" target="_blank"><i class="fab fa-instagram"></i></a></div> -->
 
-                <div class="tel">
-                    <a href="tel:+7-950-192-14-74">+7 (950) 192-14-74</a>
-                </div>
+
             </div>
         </div>
         <!-- <div class="container text-center">
@@ -468,9 +1554,33 @@
         </div> -->
     </footer>
 
-
     <script>
-
+        jQuery(function ($) {
+            $(function () {
+                function maskPhone() {
+                    var country = $('#country option:selected').val();
+                    switch (country) {
+                        case "ru":
+                            $("#exampleInputPassword1").mask("+7(999) 999-99-99");
+                            break;
+                        case "ua":
+                            $("#phone").mask("+380(999) 999-99-99");
+                            break;
+                        case "by":
+                            $("#phone").mask("+375(999) 999-99-99");
+                            break;
+                    }
+                }
+                // maskPhone();
+                // $('#country').change(function () {
+                //     maskPhone();
+                // });
+            });
+        });
+        $(function () {
+            //2. Получить элемент, к которому необходимо добавить маску
+            $("#exampleInputPassword1").mask("8(999) 999-9999");
+        });
         // if(function getHidden() ){
         //     let a = document.getElementsByClassName('hover1')[0];
         //     a.hidden = false;
@@ -557,34 +1667,5 @@
     <script src="/script_car.js"></script>
 
 </body>
-<!-- <footer>
-
-    <div class="footer-blok1 clearfix">
-        <p class="footer-contacts">Контакты</p>
-        <p class="footer-adres">
-            Свердловская область
-            <br>
-            г.Первоуральск, 
-            <br>
-            ул. Вайнера 45В, стр. 1
-        </p>
-    </div>
-    <div class="footer-blok2 clearfix">
-        <p class="inform">Режим работы</p>
-        <p class="inform2">Ежедневно с 9.00 - 19.00 
-        <br>
-        без выходных</p>
-    </div>
-    <div class="footer-blok3">
-        <p class="footer-blok3-text1">
-            Обратная связь
-        </p>
-        <p class="footer-blok3-text2">Если у вас имеются жалобы или пожелания - напишите нам</p>
-        <input type="email" name="address" placeholder="ваше сообщение" class="windows">
-        <button class="button-fa">
-            <i class="fas fa-paper-plane"></i>
-        </button>
-    </div>
-</footer> -->
 
 </html>
