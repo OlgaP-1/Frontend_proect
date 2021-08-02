@@ -1,97 +1,4 @@
-/* ** настройка кроссбраузерности */
-@media screen and (max-width: 1282px) {
-    body{
-        width: 100%;
-        min-height:100%;
-        -o-background-size: 100%;
-        -webkit-background-size:100%;
-        -moz-background-size:100%;
-        -khtml-background-size:100%;
-        background-size: 100%;
-    }
-    .my_conteiner {
-        width: 100%;
-    } 
-    
-    .line2 {
-        display: none;
-    }
-    .row_block1 {
-        margin-top: 6rem;
-    }
-    .slider-text {
-        width: 20%;
-    }
-    .menu-link{
-        line-height: 2.5rem;
-    }
 
-}
-@media screen and (max-width: 741px){
-    .block2 > p {
-        font-size: 1rem;
-    }
-
-}
-@media screen and (max-width: 527px){
-    .block2 {
-        height: 350px;
-    }
-
-}
-@media screen and (max-width: 395px){
-    body{
-        width: 100%;
-    }
-    .my_container{
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        font-size: 40%;
-    }
-    .car {
-        /* height: 350px; */
-        display: none;
-        opacity: 0;
-    }
-
-    .blockPromo{
-        width: 100%;
-        padding: 0;
-    }
-    .promo1{
-        line-height: 1.5rem;
-    }
-    .promo1 > h1{
-        color: #43a047;
-        font-size: 40%;
-        /* font-size: 1.5em; */
-        font-weight: 700;
-        text-transform: uppercase;
-        width: 60%;
-        margin-top: 40%;
-    }
-    .promo2 {
-        font-size: 1rem;
-    }
-    .promo2 > h1{
-        color: #43a047;
-        font-weight: 700;
-        text-transform: uppercase;
-        width: 60%;
-        margin-top: 40%;
-    } 
-    footer > p{
-        font-size: 1rem;
-    }
-    .text-footer2{
-        font-size: 5px;
-    }
-    .tel{
-        font-size: 1rem;
-    }
-
-}
 /* ** центрирование всех объектов, задаем фон  */
 * {
     margin: 0;
@@ -118,8 +25,10 @@ html{
 
 /* * ===== Блок с меню и главный слайд с картинкой ===== */
 .slider {
+    /* text-align: center; */
     min-width: 280px;
-    height: 800px;
+    height: 1455px;
+    /* height: 100%; */
     /* min-height: 600px; */
     /* height: 60em; */
     background-color: #f0f0f0;
@@ -127,7 +36,7 @@ html{
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: bottom;
-    background-size: 40%;
+    background-size: 30%;
     margin-bottom: 5rem;
     position: relative;
 }
@@ -219,11 +128,68 @@ html{
     border-bottom: 3px solid #212121;
 }
 
+/* ===========  кнопка связи в меню  ======= */
+.modal-title > h2 {
+    color: #212121;
+    font-weight: 600;
+
+}
+.block_btn_coll {
+    position: relative;
+    width: 120%;
+    height: 120%;
+    margin-left: 26%;
+    margin-top: 7%;
+    background-image: url(../img/carusel/color1_2.svg);
+    background-repeat: no-repeat;
+    background-size: 40%;
+}
+
+label {
+    color: #212121;
+}
+.modal {
+    max-width: 600px;
+}
+.btn_message {
+    background-color: rgba(240,240,240, .5);
+    /* opacity: 20%; */
+    position: absolute;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 12%; 
+    border-radius: 50%;
+    height: 7%;
+    width: 20%;
+}
+.form-group > label {
+    color: #212121;
+    font-size: 1.5rem;
+
+}
+.form-group > input {
+    /* width: 20%; */
+    height: 3rem;
+    padding-top: 10px;
+}
+.form-group > input::placeholder {
+    font-size: 1.5rem;
+    color: #aaaaaa;
+}
+.modal-footer > button {
+    font-size: 3rem;
+} 
+/* .btn_coll {
+    font-size: 3rem;
+    background-color: #006cb1;
+} */
+
 /* ==========  надпись на главном слайде  =========== */
 
 .slider-text {
     position: absolute;
-    margin-top: 70rem;
+    margin-top: 97rem;
     margin-left: 2rem;
     padding-top: 3%;
     
@@ -638,7 +604,7 @@ div [class="product-fon fon3"] {
 
 
 .footer {
-    height: 100rem;
+    /* height: 100rem; */
     background-color: #f7f7f7;
     border-color: #f7f7f7;
     position: relative;
@@ -646,11 +612,12 @@ div [class="product-fon fon3"] {
 
 .footer-blok1 {
     margin-top: 3rem;
-    margin-left: 2rem;
+    /* margin-left: 2rem; */
     width: 221px;
     height: 139px;
     float: left;
-    margin-right: 80px;
+    /* float: right; */
+    /* margin-right: 80px; */
 }
 
 .footer-contacts {
@@ -676,7 +643,7 @@ div [class="product-fon fon3"] {
 .footer-blok2 {
     float: left;
     margin-top: 3rem;
-    margin-left: 10rem;
+    /* margin-left: 10rem; */
 }
 
 .inform {
@@ -708,7 +675,8 @@ div [class="product-fon fon3"] {
     width: 70rem;
     height: 147px;
     float: left;
-    margin-left: 30rem;
+    /* margin-left: 30rem; */
+    /* float: right; */
 }
 
 .footer-blok3-text1 {
@@ -730,23 +698,6 @@ div [class="product-fon fon3"] {
     margin-bottom: 26px;
 }
 
-/* .input [type="footer-blok3-text3"] placeholder {
-    width: 128px;
-    height: 14px;
-    margin-top: 17px;
-    margin-left: 19px;
-}
-
-.windows {
-    width: 370px;
-    height: 48px;
-    padding-left: 19px;
-    color: #6c6c6c;
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 22px;
-    float: left;
-} */
 .footer_block {
     margin-bottom: 5px;
 
@@ -773,7 +724,7 @@ div [class="product-fon fon3"] {
     letter-spacing: 0.6px;
     text-align: left;
     float: left;
-    margin-left: 3rem;
+    /* margin-left: 3rem; */
 }
 
 .text2-footer2 {
@@ -797,8 +748,7 @@ div [class="product-fon fon3"] {
     margin-left: 20rem;
     margin-top: 8.4rem;
 }
-.tel{
-    /* background-color: lightpink; */
+/* .tel{
     display: inline-block;
     width: 350px;
     height: 40px;
@@ -807,10 +757,11 @@ div [class="product-fon fon3"] {
     position: absolute;
     margin-left: 20%;
     margin-top: 8.4rem;
-}
+} */
 .tel > a{
     text-decoration: none;
-    font-size: 18px;
+    font-size: 14px;
+    font-weight: 300;
     color: #212121;
 }
 .tel > a:hover{
@@ -852,15 +803,10 @@ div [class="product-fon fon3"] {
     /* font-size: 31px; */
     width: 31px;
     border-radius: 25%;
-    /* margin-right: 15px;
-    margin-left: 15px; */
 
 }
 .fas:hover {
     background-color: black;
-    /* margin-right: 15px;
-    margin-left: 15px; */
-    /* border-radius: 25%; */
 }
 
 ul[class="icons"] {
@@ -944,48 +890,12 @@ ul[class="icons"] {
     padding-left: 7px;
 }
 
-
-
-
-
-
-/* ul.icons {
-    text-align: center; 
-    margin-left: 158px;
-    display: inline-block;
-    width: 153px;
-    height: 28px;
-    float: left;
-    margin-top: -5px;
-    list-style: none;
-    border-radius: 50%;
-    font-size: 0px;
-} */
-
-/*.button-fa {
-    width: 40px;
-    height: 40px;
-    background-image: url(img/paper-plane-solid.svg);
-    float: left;
-    border: none;
-    margin-left: 349px;
-    margin-top: -47px;
-    margin-bottom: 50px;
-    background-color: white;
-}*/
-
-
-/* .text-footer-footer2 {
-    font-family: font-awesome-4.7.0, font-awesome-4.7.0;
-        text-align: center;
-    margin: 0 auto;
-    margin-top: 69px;
-    line-height: 0px;
-    float: left;
-    margin-bottom: 38px;
-} */
-
-
+.review_check {
+    color: #212121;
+    font-weight: 300;
+    /* margin-top: 10px; */
+    padding-top: 10px;
+}
 
 .footer2-cherin a {
     font-size: 0px;
@@ -1032,3 +942,439 @@ letter-spacing: 0.6px;
     height: 12px;
 }
     
+
+
+
+
+
+
+
+/* ** настройка кроссбраузерности */
+@media screen and (max-width: 1282px) {
+    body{
+        width: 100%;
+        min-height:100%;
+        -o-background-size: 100%;
+        -webkit-background-size:100%;
+        -moz-background-size:100%;
+        -khtml-background-size:100%;
+        background-size: 100%;
+    }
+    .my_conteiner {
+        width: 100%;
+    } 
+    
+    .line2 {
+        display: none;
+    }
+    .row_block1 {
+        margin-top: 6rem;
+    }
+    .slider-text {
+        width: 20%;
+    }
+    .menu-link{
+        line-height: 2.5rem;
+    }
+
+}
+@media screen and (max-width: 741px){
+    .block2 > p {
+        font-size: 1rem;
+    }
+    .block_btn_coll{
+        height: 70%;
+    }
+    .btn_message{
+        height: 4%;
+    }
+    .slider{
+        height: 800px;
+    }
+    .slider-text{
+        margin-top: 41rem;
+    }
+
+}
+@media screen and (max-width: 670px){
+    .footer-blok3-text2{
+        margin-left: 280px;
+    }
+    footer > .col-md-8 {
+        width: 330px;
+        margin-left: 280px;
+    }
+    .text-footer-footer2 > p {
+        font-size: 8px;
+        line-height: 14px;
+    }
+    .block_btn_coll{
+        height: 70%;
+    }
+    .btn_message{
+        height: 4%;
+    }
+    .slider{
+        height: 800px;
+    }
+    .slider-text{
+        margin-top: 41rem;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 527px){
+    body{
+        width: 100%;
+    }
+
+    .my_container{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 40%;
+    }
+    .collapse{
+        margin-left: 1rem;
+    }
+    .menu-list > a{
+        font-size: 11px;
+    }
+    .menu-active-link {
+        border-bottom: 2px solid #212121;
+    }
+    #catalog{
+        font-size: 11px;
+    }
+    .block_btn_coll{
+        position: relative;
+        width: 67%;
+        height: 30%;
+        margin-left: 13%;
+        margin-top: -7%;
+        background-image: url(/img/carusel/color1_2.png);
+        background-repeat: no-repeat;
+        background-size: 107%;
+
+    }
+    .btn_message{
+        height: 26%;
+        width: 65%;
+        font-size: 2.5rem;
+        margin-left: 21%;
+        margin-top: 31%;
+    }
+    .slider{
+        height: 830px;
+    }
+    .slider-text{
+        margin-top: 29rem;
+    }
+    .slider-text1{
+        font-size: 1.5rem;
+    }
+    .slider-h2{
+        font-size: 3.5rem;
+        letter-spacing: -2px;
+    }
+    .slider-content{
+        font-size: 1rem;
+        margin-top: 13px;
+        line-height: 14px;
+    }
+    .button {
+        font-size: 1rem;
+        height: 2.5rem;
+        width: 13rem;
+        line-height: 25px;
+        letter-spacing: 2.6px;
+    }
+    .products1_name{
+        margin-top: -5.5rem;
+    }
+    .products1{
+        margin-top: 21px;
+    }
+    .block1 > .row{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    div [class="product-fon fon3"] {
+        font-size: 11px;
+        letter-spacing: 0px;
+        line-height: 16px;
+    }
+    div [class="product-fon fon2"] {
+        font-size: 20px;
+        line-height: 24.88px;
+        margin-top: 16px;
+    }
+    .block2{
+        height: 140px;
+    }
+    #car_text{
+        font-size: 2rem;
+    }
+    .car_text2{
+        margin-top: 2rem;
+    }
+    .car {
+        /* height: 350px; */
+        display: none;
+        /* opacity: 0;
+        margin-left: -30px;
+        width: 50px; */
+    }
+
+    .blockPromo{
+        width: 100%;
+        padding: 0;
+        height: 55rem;
+    }
+    .promo1{
+        line-height: 1.5rem;
+    }
+    .promo1 > h1{
+        color: #43a047;
+        /* font-size: 40%; */
+        font-size: 2.5em;
+        font-weight: 700;
+        text-transform: uppercase;
+        width: 60%;
+        margin-top: 40%;
+    }
+    .promo1 > p{
+        font-size: 1rem;
+    }
+    /* .promo2 {
+        font-size: 1rem;
+    } */
+    .promo2 > h1{
+        color: #43a047;
+        font-weight: 700;
+        text-transform: uppercase;
+        width: 60%;
+        margin-top: 40%;
+        font-size: 1rem;
+    } 
+    .promo2 > p{
+        font-size: 1rem;
+        line-height: 12px;
+    }
+    footer > p{
+        font-size: 1rem;
+    }
+    .text-footer-footer2 > p {
+        font-size: 8px;
+        line-height: 14px;
+        margin-left: 33px;
+        margin-top: 130px;
+    }
+    /* .tel{
+        font-size: 1rem;
+        margin-left: 11%;
+    } */
+    footer > .col-md-8 {
+        width: 330px;
+        margin-left: 280px;
+    }
+    .footer-blok2{
+        margin-left: 3rem;
+
+    }
+    .inform{
+        letter-spacing: 0.8px;
+    }
+    .footer-blok3{
+        margin-top: -2rem;
+        width: 65rem;
+        height: 190px;
+    }
+    .footer-blok3 > .row {
+        margin-right: 0px;
+        margin-left: 211px;
+        padding: 0px;
+    }
+    .footer-blok3-text2{
+        margin-left: 229px;
+    }
+    .form-group > input {
+        height: 3.5rem;
+        padding-top: 5px;
+        font-size: 13px;
+    }
+
+}
+@media screen and (max-width: 395px){
+    body{
+        width: 100%;
+    }
+    .my_container{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 40%;
+    }
+    .collapse{
+        margin-left: 1rem;
+    }
+    .menu-list > a{
+        font-size: 11px;
+    }
+    .menu-active-link {
+        border-bottom: 2px solid #212121;
+    }
+    #catalog{
+        font-size: 11px;
+    }
+    .block_btn_coll{
+        position: relative;
+        width: 60%;
+        height: 22%;
+        margin-left: 18%;
+        margin-top: 7%;
+        background-image: url(/img/carusel/color1_2.png);
+        background-repeat: no-repeat;
+        background-size: 106%;
+
+    }
+    .btn_message{
+        height: 26%;
+        width: 65%;
+        font-size: 2.5rem;
+        margin-left: 21%;
+        margin-top: 31%;
+    }
+    .slider{
+        height: 800px;
+    }
+    .slider-text{
+        margin-top: 29rem;
+    }
+    .slider-text1{
+        font-size: 1.5rem;
+    }
+    .slider-h2{
+        font-size: 3.5rem;
+        letter-spacing: -2px;
+    }
+    .slider-content{
+        font-size: 1rem;
+        margin-top: 13px;
+        line-height: 14px;
+    }
+    .button {
+        font-size: 1rem;
+        height: 2.5rem;
+        width: 13rem;
+        line-height: 25px;
+        letter-spacing: 2.6px;
+    }
+    .products1_name{
+        margin-top: -5.5rem;
+    }
+    .products1{
+        margin-top: 21px;
+    }
+    .block1 > .row{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    div [class="product-fon fon3"] {
+        font-size: 11px;
+        letter-spacing: 0px;
+        line-height: 16px;
+    }
+    div [class="product-fon fon2"] {
+        font-size: 20px;
+        line-height: 24.88px;
+        margin-top: 16px;
+    }
+    .block2{
+        height: 140px;
+    }
+    #car_text{
+        font-size: 2rem;
+    }
+    .car_text2{
+        margin-top: 2rem;
+    }
+    .car {
+        /* height: 350px; */
+        display: none;
+        /* opacity: 0;
+        margin-left: -30px;
+        width: 50px; */
+    }
+
+    .blockPromo{
+        width: 100%;
+        padding: 0;
+        height: 55rem;
+    }
+    .promo1{
+        line-height: 1.5rem;
+    }
+    .promo1 > h1{
+        color: #43a047;
+        /* font-size: 40%; */
+        font-size: 2.5em;
+        font-weight: 700;
+        text-transform: uppercase;
+        width: 60%;
+        margin-top: 40%;
+    }
+    .promo1 > p{
+        font-size: 1rem;
+    }
+    /* .promo2 {
+        font-size: 1rem;
+    } */
+    .promo2 > h1{
+        color: #43a047;
+        font-weight: 700;
+        text-transform: uppercase;
+        width: 60%;
+        margin-top: 40%;
+        font-size: 1rem;
+    } 
+    .promo2 > p{
+        font-size: 1rem;
+        line-height: 12px;
+    }
+    footer > p{
+        font-size: 1rem;
+    }
+    .text-footer-footer2 > p {
+        font-size: 8px;
+        line-height: 14px;
+        margin-left: 33px;
+    }
+    /* .tel{
+        font-size: 1rem;
+        margin-left: 11%;
+    } */
+    footer > .col-md-8 {
+        width: 330px;
+        margin-left: 280px;
+    }
+    .footer-blok2{
+        margin-left: 3rem;
+
+    }
+    .inform{
+        letter-spacing: 0.8px;
+    }
+    .footer-blok3{
+        margin-top: -2rem;
+        width: 65rem;
+        height: 190px;
+    }
+    .footer-blok3 > .row {
+        margin-right: 0px;
+        margin-left: 264px;
+        padding: 0px;
+    }
+    .footer-blok3-text2{
+        margin-left: 280px;
+    }
+}
